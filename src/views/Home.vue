@@ -13,6 +13,7 @@
           related to domains like Image Processing, Deep Learning and Data Analysis. I always try to have an hands on experience on the new
           technologies I learn which I apply on my projects. I look forward to researching, learning and applying on my upcoming ventures.
         </h3>
+        <h3 class="px-4 pt-4"><a href="https://drive.google.com/file/d/1xOiFdtlZlkIe9sHrVXfTLZRw5akI5c9s/view?usp=sharing" target="_blank" class="green--text font-weight-regular title">My Resume</a></h3>
         <v-row class="d-flex pa-3 mt-2">
           <v-btn class="mx-2" href="https://www.linkedin.com/in/benitarego/" target="_blank" fab dark large color="#0A5C32">
             <v-icon size="40" dark>mdi-linkedin</v-icon>
