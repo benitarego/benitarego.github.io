@@ -1,12 +1,12 @@
 <template>
     <v-container class="pa-md-10">
-        <h1 class="font-weight-bold grey--text display-1 my-5">PROJECTS</h1>
+        <h1 class="font-weight-bold grey--text display-1 pl-3 my-5">PROJECTS</h1>
         <v-list dense nav>
-            <v-list-item color="white" v-for="proj in projs" :key="proj.ptitle" router :to="proj.proute" target="_blank">
+            <v-list-item color="white" v-for="proj in projs" :key="proj.ptitle" target="_blank">
                 <v-list-item-content>
                     <v-row class="justify-space-between">
-                        <h2 class="pa-3 black--text font-weight-bold">{{ proj.ptitle }}</h2>
-                        <h3 class=" pa-3 green--text">{{ proj.ptimeperiod }}</h3>
+                        <h2 class="pa-3 black--text font-weight-bold"><a :href="proj.proute" target="_blank" class="black--text">{{ proj.ptitle }}</a></h2>
+                        <h3 class="pa-3 green--text">{{ proj.ptimeperiod }}</h3>
                     </v-row>
                     <h3 class="body-1 pa-3">
                         <li>{{ proj.pdesc }}</li>
@@ -42,7 +42,7 @@ export default {
                 proute: 'https://github.com/benitarego/ML-Prediction-using-VueJS-Flask' 
                 },
             { 
-                ptitle: 'NGO Manager', 
+                ptitle: 'NGO Manager Website', 
                 ptimeperiod: 'Sept 2018 - Oct 2018', 
                 pdesc: 'A web application where contents related to the organization is displayed as well as registering as a volunteer, staff and volunteers management with event creation and many more features are provided.', 
                 proute: 'https://github.com/benitarego/NGO-website' 

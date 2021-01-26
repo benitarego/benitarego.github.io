@@ -18,23 +18,22 @@ const routes = [
     path: '/experience',
     name: 'experience',
     component: Experience
-},
-{
-    path: '/projects',
-    name: 'projects',
-    component: Projects
-},
-{
-    path: '/education',
-    name: 'education',
-    component: Education
-},
-{
-    path: '/skills',
-    name: 'skills',
-    component: Skills
-}
-  
+  },
+  {
+      path: '/projects',
+      name: 'projects',
+      component: Projects
+  },
+  {
+      path: '/education',
+      name: 'education',
+      component: Education
+  },
+  {
+      path: '/skills',
+      name: 'skills',
+      component: Skills
+  },
 ]
 
 const router = new VueRouter({
