@@ -28,21 +28,21 @@ export default {
       return {
           edus: [
             { 
-                etitle: 'Fr. Conceicao Rodrigues College of Engineering, Bandra', 
+                etitle: 'Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai', 
                 etimeperiod: 'August 2017 - Present', 
                 board: 'University of Mumbai',
                 degree: 'Bachelor of Engineering in Computer Engineering (B.E)',
                 grade: 'CGPA: 8.55/10, WES: 3.71/4',
             },
             { 
-                etitle: 'Sathaye College', 
+                etitle: 'Sathaye College, Vile Parle, Mumbai', 
                 etimeperiod: 'July 2015 - May 2017', 
                 board: 'Maharashtra State Board',
                 degree: 'Higher Secondary Certificate - HSC',
                 grade: 'Percentage: 78.77%'
                 },
             { 
-                etitle: 'St. Charles High School', 
+                etitle: 'St. Charles High School, Santacruz, Mumbai', 
                 etimeperiod: 'June 2005 - May 2015', 
                 board: 'Maharashtra State Board',
                 degree: 'Secondary School Certificate - SSC',
