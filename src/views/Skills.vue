@@ -1,6 +1,6 @@
 <template>
     <v-container class="pa-md-10">
-        <h1 class="font-weight-bold grey--text display-1 pl-3 my-5">SKILLS</h1>
+        <h1 class="font-weight-bold grey--text display-1 my-5">SKILLS</h1>
         <div class="d-flex flex-row justify-start flex-wrap">
             <v-img 
             class="ma-4"
@@ -145,22 +145,6 @@
                 width="80"
                 max-width="80"
                 src="@/assets/keras.png">
-            </v-img>
-            <v-img 
-            class="ma-4"
-                contain
-                height="80"
-                width="80"
-                max-width="80"
-                src="@/assets/adobe-photoshop.png">
-            </v-img>
-            <v-img 
-            class="ma-4"
-                contain
-                height="80"
-                width="80"
-                max-width="80"
-                src="@/assets/adobe-premiere-pro.png">
             </v-img>
         </div>
         <h3 class="pt-5 green--text justify-center">And the learning continues...</h3>
