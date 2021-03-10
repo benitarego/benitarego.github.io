@@ -104,6 +104,14 @@
                 height="80"
                 width="80"
                 max-width="80"
+                src="@/assets/sqlite.png">
+            </v-img>
+            <v-img 
+            class="ma-4"
+                contain
+                height="80"
+                width="80"
+                max-width="80"
                 src="@/assets/phpmyadmin.png">
             </v-img>
             <v-img 
