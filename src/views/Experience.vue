@@ -30,7 +30,7 @@ export default {
             exps: [
                 {
                     title: 'Mobile App Developer (Intern)',
-                    timeperiod: 'Jun 2020 - Jul 2020',
+                    timeperiod: 'June 2020 - July 2020',
                     company: 'Stack Nation, Chennai'
                 }
             ]
