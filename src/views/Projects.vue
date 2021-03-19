@@ -25,31 +25,31 @@ export default {
            projs: [
             { 
                 ptitle: 'AI-based Social Media Data Analytics for Mental Health Evaluation', 
-                ptimeperiod: 'Jul 2020 - Present', 
+                ptimeperiod: 'August 2020 - Present', 
                 pdesc: 'A system which provides assistance to the user by analyzing his state of mind by his social media contents and further recommending health care experts to get through their declining mental state.', 
                 proute: 'https://github.com/benitarego' 
             },
             { 
                 ptitle: 'Human Act Recognition', 
-                ptimeperiod: 'Mar 2020 - May 2020', 
+                ptimeperiod: 'March 2020 - May 2020', 
                 pdesc: 'An application that detects the individuals living alone at their residence, for any suspicious behavior and alerts the person monitoring, from anywhere, also recording all activities in real-time.', 
                 proute: 'https://github.com/benitarego/Human-Act-Recognition' 
                 },
             { 
                 ptitle: 'ML Target Prediction System', 
-                ptimeperiod: 'Apr 2020', 
+                ptimeperiod: 'April 2020', 
                 pdesc: 'A web application that predicts a target variable from a dataset uploaded by the user and also selecting the algorithms he wishes to use (eg. regression).', 
                 proute: 'https://github.com/benitarego/ML-Prediction-using-VueJS-Flask' 
                 },
             { 
                 ptitle: 'NGO Manager Website', 
-                ptimeperiod: 'Sept 2018 - Oct 2018', 
+                ptimeperiod: 'September 2018 - October 2018', 
                 pdesc: 'A web application where contents related to the organization is displayed as well as registering as a volunteer, staff and volunteers management with event creation and many more features are provided.', 
                 proute: 'https://github.com/benitarego/NGO-website' 
             },
             { 
                 ptitle: 'Text Summarization', 
-                ptimeperiod: 'Aug 2018 - Oct 2018', 
+                ptimeperiod: 'August 2018 - October 2018', 
                 pdesc: 'Headlines of news articles summarized to a summary or short paragraph using NLP.', 
                 proute: 'https://github.com/benitarego/Text-Summarization' 
                 },
