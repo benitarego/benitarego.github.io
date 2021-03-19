@@ -32,7 +32,7 @@ export default {
                 etimeperiod: 'August 2017 - Present', 
                 board: 'University of Mumbai',
                 degree: 'Bachelor of Engineering in Computer Engineering - B.E',
-                grade: 'CGPA: 8.68/10, WES: 3.79/4',
+                grade: 'CGPA: 8.67/10, WES: 3.79/4',
             },
             { 
                 etitle: 'Sathaye College', 
