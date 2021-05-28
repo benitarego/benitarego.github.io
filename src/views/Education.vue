@@ -1,21 +1,26 @@
-<template>
-    <v-container class="pa-md-10">
-        <h1 class="font-weight-bold grey--text display-1 my-5">EDUCATION</h1>
-        <v-list dense nav>
-            <v-list-item color="white" v-for="edu in edus" :key="edu.etitle">
-                <v-list-item-content>
-                    <v-row class="justify-space-between">
-                        <h2 class="pa-3 black--text font-weight-bold">{{ edu.etitle }}</h2>
-                        <h3 class=" pa-3 green--text">{{ edu.etimeperiod }}</h3>
-                    </v-row>
-                    <v-list-item-h3 class="mx-2 mt-1 font-weight-medium grey--text">{{ edu.board }}</v-list-item-h3>
-                    <v-list-item-h3 class="mx-2 mt-2 font-weight-medium grey--text">{{ edu.degree }}</v-list-item-h3>
-                    <v-list-item-h3 class="mx-2 mt-2 font-weight-medium grey--text">{{ edu.grade }}</v-list-item-h3>
-                </v-list-item-content>
-            </v-list-item>
-            <br>
-        </v-list>
-    </v-container>
+<!-- <template>
+<section class="education">
+    <v-app class="page-wrapper">
+        <v-container class="pa-10">
+            <h1 style="font-size: 50px; font-weight: 400" class="brown--text mt-10 ml-3">Education</h1><br>
+            <v-list dense nav>
+                <v-list-item color="white" v-for="edu in edus" :key="edu.etitle">
+                    <v-list-item-content>
+                        <v-row class="justify-space-between">
+                            <h2 class="pa-3 black--text font-weight-medium">{{ edu.board }}</h2>
+                            <h3 class=" pa-3 font-weight-regular brown--text">{{ edu.etimeperiod }}</h3>
+                        </v-row>
+                        <v-list-item-h3 class="mx-2 mt-1 title font-weight-light">{{ edu.etitle }}</v-list-item-h3>
+                        <v-list-item-h3 class="mx-2 mt-2 title font-weight-light">{{ edu.degree }}</v-list-item-h3>
+                        <v-list-item-h3 class="mx-2 mt-2 title font-weight-regular brown--text">{{ edu.grade }}</v-list-item-h3>
+                        <br>
+                    </v-list-item-content>
+                </v-list-item>
+                <br>
+            </v-list>
+        </v-container>
+    </v-app>
+</section>
 </template>
 
 
@@ -29,27 +34,27 @@ export default {
           edus: [
             { 
                 etitle: 'Fr. Conceicao Rodrigues College of Engineering, Bandra', 
-                etimeperiod: 'August 2017 - Present', 
+                etimeperiod: '2017 - Present', 
                 board: 'University of Mumbai',
                 degree: 'Bachelor of Engineering in Computer Engineering - B.E',
-                grade: 'CGPA: 8.67/10, WES: 3.79/4',
+                grade: 'CGPA: 8.67/10',
             },
             { 
                 etitle: 'Sathaye College', 
-                etimeperiod: 'July 2015 - May 2017', 
+                etimeperiod: '2015 - 2017', 
                 board: 'Maharashtra State Board',
-                degree: 'Higher Secondary Certificate - HSC',
+                degree: 'Higher Secondary Certificate - H.S.C',
                 grade: 'Percentage: 78.77%'
                 },
             { 
                 etitle: 'St. Charles High School', 
-                etimeperiod: 'June 2005 - May 2015', 
+                etimeperiod: '2005 - 2015', 
                 board: 'Maharashtra State Board',
-                degree: 'Secondary School Certificate - SSC',
+                degree: 'Secondary School Certificate - S.S.C',
                 grade: 'Percentage: 93.00%'
                 },
           ]
       }
   }
 }
-</script>
+</script> -->
