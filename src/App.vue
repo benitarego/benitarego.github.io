@@ -19,20 +19,20 @@
               </v-card>
               <v-card-title class="justify-center my-4" style="font-size: 40px">Benita Rego</v-card-title>
               <v-card-subtitle class="font-weight-light" style="font-size: 20px; text-align: center;">Final Year CS Student</v-card-subtitle>
-              <v-row class="d-none d-sm-flex justify-center pa-3">
-                <v-btn class="mx-2" href="mailto:regobenita26@gmail.com" target="_blank" fab dark color=brown>
+              <v-row class="d-none d-sm-flex justify-center px-3 pt-5">
+                <v-btn elevation="0" class="mx-2" href="mailto:regobenita26@gmail.com" target="_blank" fab dark color=brown>
                   <v-icon size="30" dark>mdi-email</v-icon>
                 </v-btn>
                 
-                <v-btn class="mx-2" href="https://www.linkedin.com/in/benitarego/" target="_blank" fab dark color=brown>
+                <v-btn elevation="0" class="mx-2" href="https://www.linkedin.com/in/benitarego/" target="_blank" fab dark color=brown>
                   <v-icon size="30" dark>mdi-linkedin</v-icon>
                 </v-btn>
                 
-                <v-btn class="mx-2" href="https://github.com/benitarego" target="_blank" fab dark color=brown>
+                <v-btn elevation="0" class="mx-2" href="https://github.com/benitarego" target="_blank" fab dark color=brown>
                   <v-icon size="30" dark>mdi-github</v-icon>
                 </v-btn>
                 
-                <v-btn class="mx-2" href="https://drive.google.com/file/d/1buPxztTWKMxSWQfycBktf4KFS0BWN2js/view?usp=sharing" target="_blank" fab dark color=brown>
+                <v-btn elevation="0" class="mx-2" href="https://drive.google.com/file/d/1buPxztTWKMxSWQfycBktf4KFS0BWN2js/view?usp=sharing" target="_blank" fab dark color=brown>
                   <v-icon size="30" dark>mdi-text-box</v-icon>
                 </v-btn>
               </v-row>

@@ -1,7 +1,7 @@
 <template>
 <section class="projects">
         <v-container class="pa-10">
-            <h1 style="font-size: 50px; font-weight: 400" class="brown--text mt-10 ml-3">Projects</h1><br>
+            <h1 style="font-size: 45px; font-weight: 400" class="brown--text pb-4 mt-10 ml-3">Projects</h1>
             <v-card hover>
                 <v-list dense nav>
                 <v-list-item color="white" v-for="proj in projs" :key="proj.ptitle" target="_blank">

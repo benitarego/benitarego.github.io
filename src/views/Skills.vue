@@ -1,7 +1,7 @@
 <template>
     <section class="skills">
         <v-container class="pa-10">
-            <h1 style="font-size: 50px; font-weight: 400" class="brown--text mt-10 ml-3">Skills</h1><br>
+            <h1 style="font-size: 45px; font-weight: 400" class="brown--text mt-10 ml-3">Skills</h1>
             <div class="d-flex flex-row justify-center flex-wrap">
                 <v-img 
                 class="ma-4"
@@ -172,7 +172,7 @@
                     src="@/assets/adobe-premiere-pro.png">
                 </v-img>
             </div>
-            <h3 class="pt-5 px-16 brown--text font-weight-light justify-center">And the learning continues...</h3>
+            <h3 class="pt-5 pl-6 brown--text font-weight-light justify-center">And the learning continues...</h3>
         </v-container>
     </section>
 </template>

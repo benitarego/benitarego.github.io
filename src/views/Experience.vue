@@ -1,19 +1,19 @@
 <template>
 <section class="experience">
         <v-container class="pa-10">
-            <h1 style="font-size: 50px; font-weight: 400" class="brown--text mt-10 ml-3">Experience</h1><br>
+            <h1 style="font-size: 45px; font-weight: 400" class="brown--text mt-5 mb-3 ml-3">Experience</h1>
             <v-card hover>
             <v-list dense nav>
                 <v-list-item color="white" v-for="exp in exps" :key="exp.title">
                     <v-list-item-content>
-                        <v-row class="pa-4 justify-space-between">
+                        <v-row class="pa-4 ">
                             <v-img class="justify-center" height=50 max-width="220" src="@/assets/stacknation.png"></v-img>
                             <v-col>
-                            <h2 class="pa-3 black--text font-weight-medium">{{ exp.title }}</h2>
+                            <h2 class="justify-start pa-3 black--text font-weight-medium">{{ exp.title }}</h2>
                             <v-row>
-                            <h3 class="pl-3 py-2 ml-3 black--text font-weight-light">{{ exp.company }}</h3>
-                            <h3 class="pl-3 py-2 font-weight-regular brown--text">|</h3>
-                            <h3 class="pl-3 py-2 font-weight-regular brown--text">{{ exp.timeperiod }}</h3>
+                            <h3 class="justify-start pl-3 py-2 ml-3 black--text font-weight-light">{{ exp.company }}</h3>
+                            <h3 class="justify-start pl-3 py-2 font-weight-regular brown--text">|</h3>
+                            <h3 class="justify-start pl-3 py-2 font-weight-regular brown--text">{{ exp.timeperiod }}</h3>
                             </v-row>
                             </v-col>
                         </v-row>
